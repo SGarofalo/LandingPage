@@ -1,0 +1,52 @@
+body {
+    background-color: #f2f2f2;
+    background-image: url("https://static.vecteezy.com/system/resources/previews/003/725/556/original/argentina-flag-with-watercolor-brush-style-free-vector.jpg");
+    background-repeat: no-repeat; /* para que no repita la imagen */
+    background-size:cover; /* ajusto el tamaño */
+    background-position: center center; /* centra el fondo horizontal y verticalmente */
+}
+
+#container {
+    width: 80%; /* ancho de mi container */
+    margin: 0px auto; /* me centra el elemento */
+}
+
+h1{
+    margin-left: 40px; /* margen izq */
+    font-size: 40px; /* tamaño fuente */
+    font-family: 'Oswald', sans-serif;
+    border-bottom: 2px solid red; /* linea roja */
+    width: 38%; /* largo de mi linea borde */
+    text-align: left; /* texto a la izq */
+    padding-bottom: 10px; /* separacion entre linea roja y texto */
+}
+img {
+    width: 30%; /* ancho de mi img */
+    margin: 1.4%; /*margen en todas las img */
+    margin: 20px 20px 20px 20px;
+    /*margin-left: 20px; margen izq */
+    height: 340px; /*altura de mis img */
+    border-radius:10px; /*borde de img */
+    transition: 1.5s; /*velocidad cuando te apoyas en una img */
+    object-fit: cover; /*ajusta la img dentro del container p q no se deforme */
+}
+
+img:hover { /* le doy el estilo para q me acerque la img cuando paso el cursor*/
+        transform: scale(1.1); /* le defino cuanto quiero qme agrande la foto cuando apoyo el cursor*/
+    }
+
+
+.contacto{
+    display: block; /*lo establece como bloque y pone en el medio */
+    margin-bottom: 20px; /*tamaño margen inferior */
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    text-decoration: none; /*elimino el subrayado */
+    color: rgb(0, 0, 0);
+    text-align: center;
+    font-size: 30px;
+}
+
+.contacto:hover {
+    font-size: 30px;
+    color: rgb(144, 213, 253);
+}
